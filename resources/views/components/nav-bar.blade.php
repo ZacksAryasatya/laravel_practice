@@ -18,6 +18,8 @@
             <x-nav-link href="/datasiswa" :active="request()->is('datasiswa')">Data Siswa</x-nav-link>
             <x-nav-link href="/guardianroute" :active="request()->is('guardianroute')">Guardians</x-nav-link>
             <x-nav-link href="/classroom" :active="request()->is('classroom')">Classroom</x-nav-link>
+            <x-nav-link href="/teacher" :active="request()->is('teacher')">Teacher</x-nav-link>
+            <x-nav-link href="/subject" :active="request()->is('subject')">Subject</x-nav-link>
           </div>
         </div>
 
