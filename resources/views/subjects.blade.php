@@ -16,12 +16,8 @@
                         @foreach ($subjects as $subject)
                             <tr class="border-b">
                                 <td class="px-4 py-2 whitespace-nowrap">{{ $subject->id}}</td>
-                                <td class="px-4 py-2 whitespace-nowrap">
-                                    @foreach ($subject->teachers as $teacher)
-                                        {{ $subject->name }} <br>
-                                    @endforeach
-                                </td>
-                                 <td class="px-4 py-2 whitespace-nowrap">{{ $subject->description}}</td>
+                                <td class="px-4 py-2 whitespace-nowrap">{{ $subject->name }} </td>
+                                <td class="px-4 py-2 whitespace-nowrap">{{ $subject->description }}</td>
                             </tr>
                         @endforeach
                     </tbody>
